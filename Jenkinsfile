@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout Codegit s') {
+        stage('Checkout Codegit') {
             steps {
                 // This tells Jenkins to get the latest code from your GitHub repository.
-                git branch: 'main', url: 'https://github.com/<your-username>/my-static-website.git'
+                git branch: 'main', url: 'https://github.com/contentcrafters143/-my-static-website.git'
             }
         }
 
